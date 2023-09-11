@@ -21,7 +21,7 @@ Write-Warning "That didn't work because I haven't coded it yet!"
 
 #Start OSDCloud ZTI the RIGHT way
 Write-Host  -ForegroundColor Cyan "Start OSDCloud with D2 Parameters"
-Start-OSDCloud -OSLanguage en-us -OSBuild 20H2 -OSEdition Pro -ZTI
+Start-OSDCloud -OSLanguage nl-nl -OSBuild 20H2 -OSEdition Pro -ZTI
 
 #Anything I want  can go right here and I can change it at any time since it is in the Cloud!!!!!
 Write-Host  -ForegroundColor Cyan "Starting OSDCloud PostAction ..."
